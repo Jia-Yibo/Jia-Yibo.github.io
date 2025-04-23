@@ -1,1 +1,1 @@
-My CV:[click here](https://guolujiale.github.io/Guolujiale.io/)
+My CV:[click here](https://jia-yibo.github.io/)
