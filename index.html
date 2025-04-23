@@ -111,64 +111,49 @@
 	</p>
 	<br>
 
-        <h2>Research Experience</h2>
-	<hr/>
-	<table>
-	    <tr>   
-		<td><font size="3"><b>1.</b></font></td>&nbsp;&nbsp;
-		<td><center><img width="260" src="img/project/STAGC.png" alt="STAGC.png"></center></td>
-		<td></td><td></td>
-		<td>
-			<font size="4">
-		<a href="https://github.com/Guolujiale/STAGC">
-                <b>   Attribute Graph Clustering Driven Cell Map of Single Cell Spatial Transcriptome</b>
-		</a>
-		      <br> First author, under reviewing
-			</font>	    
-			<font size="3">
-			<br>
-			<br>With the development of precision and speed of spatial transcriptomics (ST) in sequencing, 
-				it is becoming more and more important to use the unique characteristics of ST data for cell 
-				analysis. Here, we introduce STAGC, which is a graph self-encoder method developed based on the clustering 
-				of ST data. In view of the problem that traditional graph clustering algorithms are task-oriented rather than
-				clustering, STAGC monitors the clustering process of self-training graphs by introducing soft labels generated
-				from graph embedding itself, which can iteratively refine the clustering results. In addition, unlike the existing
-				methods that directly construct graphs by calculating Euclidean distance between cell coordinates, STAGC constructs
-				graphs that are more conducive to clustering task objectives by finding cells with similar gene expression patterns 
-				within the threshold specified by the results of Euclidean distance.
-			<br><br>
-				In addition, we try to use different methods to explore the tumor microenvironment with single cell resolution. 
-				This will be based on the transcriptome data of the surrounding cells of each cell (excluding this cell) for fusion and cluster analysis. 
-				Comparing the results with the traditional pca method or gnn method, we find that different operation methods will bring different interesting 
-				results. For example, the potential comparative experiments include: whether to carry out pca and its parameters, the way to fuse the data 
-				of surrounding cells, whether to use gnn, the number of surrounding cells selected, and is it possible to define the central cell only by the surrounding cells
-			<br><br> Source of dataset: Merfish.
-				<br><ul class="list-inline">
-					<a class="github-button"
-						href="https://github.com/Guolujiale/STAGC"
-						data-icon="octicon-star" data-show-count="true"
-						aria-label="Star Charmve/Surface-Defect-Detection on GitHub">Star</a>
-					<a class="github-button"
-						href="https://github.com/Guolujiale/GAPE"
-						data-icon="octicon-repo-forked" data-show-count="true"
-						aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
-			</ul>
-		       <br><br>
-		</td>
-	    
-	</table>
-	<br> 
+    <h2>Research Experience</h2>
+    <hr/>
 
-	
-	<!--
-	<h2>✨ News! ✨</h2>
-	<hr/>
-	<ul>
-		<li><font size="4"><b>2020.03.06:</b> 1 paper was accepted by <a href="https://www.2020.ieeeicme.org/" target="_blank">ICME 2020</a> !</font></li>
-		<li><font size="4"><b>2020.02.24:</b> 1 paper was accepted by <a href="http://cvpr2020.thecvf.com/" target="_blank">CVPR 2020</a> !</font></li>
-	</ul>
-	<br>
-	-->
+    <!-- Carousel Section -->
+    <div id="researchCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 800px; margin: auto;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/activity/sco/1.jpg" class="d-block w-100" alt="STAGC Project">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>STAGC: Graph Clustering for Spatial Transcriptomics</h5>
+                </div>
+            </div>
+            <!-- 可添加更多项目 -->
+            <!--
+            <div class="carousel-item">
+                <img src="img/project/your_project2.png" class="d-block w-100" alt="Another Project">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Your Second Research Project</h5>
+                </div>
+            </div>
+            -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!-- Project Description -->
+    <div style="max-width: 800px; margin: 20px auto; font-size: 16px;">
+        <p>
+            <b><a href="https://github.com/Guolujiale/STAGC" target="_blank">STAGC: Attribute Graph Clustering Driven Cell Map of Single Cell Spatial Transcriptome</a></b><br>
+            <i>First author, under reviewing</i><br><br>
+            STAGC is a graph-based self-encoder clustering algorithm developed for spatial transcriptomics data. 
+            It introduces a self-training mechanism using soft labels from the graph embedding to refine clustering results iteratively. 
+            It also leverages gene expression similarity within spatial thresholds rather than relying solely on Euclidean distance.
+            <br><br>
+            We also experimented with different methods to explore tumor microenvironments at single-cell resolution, including PCA, GNNs, and neighborhood-based feature fusion strategies.
+        </p>
+    </div>
+
 		
 	<h2>Skills</h2>
 	<hr/>
